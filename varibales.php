@@ -16,3 +16,5 @@ echo $IamAdmin;
  * GLOBAL VARIABLES : is a type of variables that accessed everywhere in the program
  * LOCAL VARIABLES : is limited to the current scope (loop, conditional statement, function)
  */
+
+echo "" ;
