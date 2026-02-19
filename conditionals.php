@@ -10,20 +10,39 @@
 // } 
 
 // display if a number is odd or even
-$number = 91;
-if ($number % 2 == 0) {
-    echo "$number is even";
-} else {
-    echo "$number is odd";
-}
+// $number = 91;
+// if ($number % 2 == 0) {
+//     echo "$number is even";
+// } else {
+//     echo "$number is odd";
+// }
 
 // CREATE 2 EXAMPLES ON EACH CONDITIONAL STATEMENTS (IF, IF-ELSE, IF-ELSE IF-ELSE, SWITCH)
 
 
 // on if else
-$money = 1000;
-if ($money >= 1000) {
-    echo "$money you can not buy our product";
-} else {
-    echo "you can buy our product";
+// $money = 1000;
+// if ($money >= 1000) {
+//     echo "$money you can not buy our product";
+// } else {
+//     echo "you can buy our product";
+// }
+
+
+$number = 9;
+
+switch ($number) {
+    case 1:
+        $day = "Monday";
+        break;
+    case 2:
+        $day = "Tuesday";
+        break;
+
+    default:
+        $day = "Invalid option";
+        break;
+
 }
+
+echo $day;

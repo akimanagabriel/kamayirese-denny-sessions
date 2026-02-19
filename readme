@@ -1,8 +1,30 @@
 WRITE A PHP PROGRAM BY USING NESTED IFS TO DISPLAY STUDENT'S GRADE BASED ON THE FOLLOWING TABLE
 
-0 ---- 49.9: FAIL
-50 --- 70 : MEDIUM 
-71 --- 90 : INTELLIGENT
-91 --- 100 : GENIUS
+    0 -- --49.9 : FAIL 50 -- -70 : MEDIUM 71 -- -90 : INTELLIGENT 91 -- -100 : GENIUS
 
-THE MARKS THAT IS OUTSIDE OF A RANGE WILL BE MARKED AS INVALID
+                                                                                   THE MARKS THAT IS OUTSIDE OF A RANGE WILL BE MARKED AS INVALID
+
+                                                                                       syntax
+                                                                                           _______ if (condtion)
+{
+    statement
+}
+else if (2nd condition){
+    statement 2} else if (n condtion)
+{
+    statement n
+}
+else {
+    last statement}
+
+syntax-- -- -
+
+    switch (expression)
+{
+case 1:
+statement break case 2:
+statement break case n:
+    statement n break;
+
+    default : statement break;
+}
