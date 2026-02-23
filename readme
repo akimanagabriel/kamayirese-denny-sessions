@@ -28,3 +28,7 @@ statement break case n:
 
     default : statement break;
 }
+
+ASSIGNMENT
+---------
+create a php program to record marks of 2 students in 3 terms and then calculate the total, sum and average of each student obtained in all three terms
